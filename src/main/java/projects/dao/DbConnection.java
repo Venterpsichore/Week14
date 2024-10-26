@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import projects.exception.DbException;
 
+
+/*Test*/
 public class DbConnection {
 
 	private static String HOST = "localhost";
