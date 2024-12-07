@@ -40,12 +40,12 @@ class TestDemoJUnitTest {
 		 
 	 static Stream<Arguments> argumentsForAddPositive() {
 		 return Stream.of( // Stream made test case elements
-				 Arguments.arguments(-8, 9, -1, true),
+				 Arguments.arguments(-8, 9, 1, true),
 				 Arguments.arguments(1, 1, 2, false),
 				 Arguments.arguments(1, 0, 1, true),
 				 Arguments.arguments(-8, 0, -8, true),
 				 Arguments.arguments(-7, -7, -14, true),
-				 Arguments.arguments(-7, 0, -14, true)
+				 Arguments.arguments(-7, 0, -7, true)
 				 );
 	 }
 	 
