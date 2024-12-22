@@ -8,7 +8,10 @@ spring:
   jpa:
     hibernate:
 # Tells Hibernate to generate database tables at startup
-      ddl-auto: create
+      ddl-auto: update
 # Logs SQL statements into console			
       show-sql: true
       dialect: org.hibernate.dialect.MySQLDialect
+	  
+# Tried to test and make POST and PUT requests but had trouble using ARC w/ the code especially.
+# Tried searching in Docker and Terminal for address to insert into HTTP
